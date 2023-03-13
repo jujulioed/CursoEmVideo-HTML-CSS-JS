@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tudo Sobre o Google Glass</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+</head>
+<body>
+<div id="interface">                    <!-- a tag "div" serve para criar divisões no site -->
+    <header id="cabecalho">             <!-- a tag "header" separa semânticamente o cabeçalho do site; aqui, estamos começando a montar o cabeçaho como indicado na imagem "00-divispes-semanticas.jpg"-->
+    <hgroup>                            <!-- a tag "hgroup" (possui fechamento) agrupa títulos; isso n faz diferença visual mas faz diferença na semântica do site -->
+    <h1>Google Glass</h1>
+    <h2>A revolução do Google está chegando</h2>
+    </hgroup>
+
+    <img src="_imagens/glass-oculos-preto-peq.png">     <!-- a tag "img" (não possui fechamento) carrega a imagem inserida em seu "src"-->
+
+Menu Principal
+- Home
+- Especificações
+- Fotos
+- Multimídia
+- Fale conosco
+
+    </header>
+
+<hgroup>
+<h3>Tecnologia > &nbsp; Inovações</h3>                  <!-- &nbsp; - gera espaços entre as palavras;  <br> - pula linha -->
+<h1>Saiba tudo sobre o Google Glass</h1>
+<h2>por Gustavo Guanabara</h2>
+<h3>Atualizado em 23/Abril/2013</h3>
+</hgroup>
+
+
+<!-- Símbolos especiais! (só para exemplificar)
+    &lt;  <
+    &gt;  >
+    &le;  ≤
+    &ge;  ≥
+
+    &pound;  £  (libra)
+    &yen;    ¥  (iene)
+    &euro;   €  (euro)
+
+    &copy    ©  (copyright)
+    &reg;    ®  (marca registrada)
+    &trade;  ™  (trademark)
+
+    &permil;   ‰ 
+    &sum;      ∑
+    &infin;    ∞
+    &times;    ×
+    &plusmn;   ±
+    &oplus;    ⊕
+    &radic;    √
+    &ne;       ≠
+
+    &Delta;    Δ
+    &delta;    δ
+    &Lambda;   Λ
+    &Omega;    Ω
+    &Phi;      Φ
+
+    &larr;     ←
+    &rarr;     →
+    &uarr;     ↑
+    &darr;     ↓
+    &harr;     ↔
+
+-->
+
+<h2>O que é</h2>        <!-- "text-align: center;" é um parâmetro em CSS que posiciona o texto no centro da tela -->
+<p style="text-align: justify; text-indent: 50px">O <span style="text-decoration: underline;">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <i>Project Glass</i>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeoconferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o Google Glass encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou <del>novas</del> patentes anti-furto e de desbloqueio de tela para o acessório.</p>
+
+<!-- a tag <b> vem de bold, para deixar a frase dentro da tag em negrito
+     a tag <i> deixa o texto em itálico 
+     a tag <em> também deixa o texto em itálico, mas da ênfase a frase semanticamente falando 
+     a tag <del> indica um texto que foi "deletado" (texto com uma linha no meio) e tem resulado semântico
+        
+     a tag <span> serve para formatar pequenos trechos de texto (em CSS através do style)
+        
+     "text-align: justify;" aplicado no paragrafo(<p>) faz com que o texto seja distribuido na página sem deixar muitos espaços nas laterais
+     "text-indent: 50px" cria o espaçamento que demarca um paragrafo
+     a tag <sup> cria o efeito de "sobrescrito"
+     a tag <sub> cria o efeito de "subrescrito"
+     a tag <code> serve para exibirmos um código na pagina
+     a tag <pre> sginifica "pré-formatado" ou seja, espaços, pulos de linha, etc, serão considerados na hora da exibição do site
+        -->
+
+<figure class="foto-legenda">
+    <img src="_imagens/glass-quadro-homem-mulher.jpg">
+    <figcaption>
+        <h3>Google Glass</h3>
+        <p>Uma nova maneira de ver o mundo.</p>
+    </figcaption>
+</figure>
+
+<h2>Data de lançamento</h2>
+<p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
+
+<h1>Especificações Técnicas</h1>
+<h2>Tabela Técnica do Google Glass Mar/2013</h2>
+
+<p>Tela:Resolução equivalente a tela de 25"
+Camera: 5MP para fotos / 720p para vídeos
+Conectividade: Wi-Fi/ Bluetooth
+Memória Interna: 12GB</p>
+
+<h2>Como funciona</h2>
+<p>De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça</p>
+
+<h1>O que você pode fazer com o Google Glasses</h1>
+<p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super-<wbr>humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
+<!-- a tag <wbr> (não possui fechamento) indica ao navegador que essa palavra "super-humano" não é uma palavra única, portanto, pode ser quebrada devido a diferença no tamanho da tela (e qiamdp for quebrada, será quebrada no ponto onde a tag foi colocada)-->
+
+<!-- podemos usar também a tag "&shy;" que significa "Soft Hyphen". Faz com que na quebra da palavra no ponto onde a tag foi colocada seja adicionado um hífen  -->
+
+
+[AQUI ENTRA UM VÍDEO]
+
+<h1>Outras Notícias</h1>
+<h2>Vídeo mais recente</h2>
+
+[AQUI ENTRA UM VÍDEO]
+
+<h2>Novidades no Glass</h2>
+<p>O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda inédita no mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.</p>
+
+<p>Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x 360 pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas de alta definição colocado a 2,5 metros de distância do espectador.</p>
+
+<p>Copyright 2013 - by Gustavo Guanabara
+Facebook | Twitter</p>
+</div>
+</body>
+
+</html>
