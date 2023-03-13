@@ -16,12 +16,24 @@
 
     <img src="_imagens/glass-oculos-preto-peq.png">     <!-- a tag "img" (não possui fechamento) carrega a imagem inserida em seu "src"-->
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<nav>
+<!-- a tag "nav" serve para criar um container que gera um menu de navegação -->
+    <h1>Menu Principal</h1>
+    <ol type="a" start="3">
+    <!-- a tag "ol" identifica uma lista ordenada 
+    o "type" indica como a lista será enumerada e o "start" indica a partir de qual item será enumerado -->
+        <li>Home</li>
+        <!-- a tag "li" identifica um item da lista -->
+        <li>Especificações</li>
+        <li>Fotos</li>
+        <li>Multimídia</li>
+        <ol>
+            <li>Músicas</li>
+            <li>Vídeos</li>
+        </ol>
+        <li>Fale conosco</li>
+    </ol>
+</nav>
 
     </header>
 
